@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    width: 60vw;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+nav ul li {
+    list-style: none;
+}
+article {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: 180px;
+}
+h3 {
+    width: 100%;
+    text-align: center;
+}
